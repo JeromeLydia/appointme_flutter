@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.appointme_flutter">
    <application
-        android:label="appointme_flutter"
+        android:label="电生理"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
