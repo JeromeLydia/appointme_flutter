@@ -139,6 +139,14 @@ class ProfilePage extends StatelessWidget {
               ],
             ),
           ),
+          const SizedBox(height: 30.0),
+          ElevatedButton(
+            onPressed: () {
+              // Handle login button press
+              Navigator.pushNamed(context, '/login');
+            },
+            child: const Text('Log in'),
+          ),
         ],
       ),
     );
